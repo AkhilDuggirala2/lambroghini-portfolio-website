@@ -1,0 +1,152 @@
+footer {
+  height: 100vh;
+  background: black;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  padding: 10px 5%;
+}
+
+.footer-me {
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  margin: 0 10px;
+  margin-top: 30px;
+}
+
+.footer-me h1 {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: 600;
+  color: green;
+}
+
+.footer-link {
+  padding: 20px;
+}
+
+.footer-link li {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 5px;
+  margin-top: 25px;
+}
+
+.footer-link a {
+  font-size: 20px;
+  margin-top: -5px;
+  color: white;
+}
+
+.footer-icon {
+  color: green;
+  font-size: 20px;
+}
+
+.contact-services {
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  margin: 0 10px;
+  margin-top: 30px;
+}
+
+.contact-services h1 {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: 600;
+  color: green;
+}
+
+.contact-link-1 {
+  padding: 20px;
+}
+
+.contact-link-1 li {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 5px;
+  margin-top: 25px;
+}
+
+.contact-link-1 a {
+  font-size: 20px;
+  margin-top: -5px;
+  color: white;
+}
+
+.contact-info {
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  margin: 0 10px;
+  margin-top: 30px;
+}
+
+.contact-info h1 {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: 600;
+  color: green;
+}
+
+.contact-link-2 {
+  padding: 20px;
+}
+
+.contact-link-2 li {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 5px;
+  margin-top: 25px;
+}
+
+.contact-link-2 a {
+  font-size: 20px;
+  margin-top: -5px;
+  color: white;
+}
+
+.contact-social {
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  margin: 0 10px;
+  margin-top: 30px;
+}
+
+.contact-social h1 {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: 600;
+  color: green;
+}
+
+.contact-link-3 {
+  padding: 20px;
+}
+
+.contact-link-3 li {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 5px;
+  margin-top: 25px;
+}
+
+.contact-link-3 a {
+  font-size: 20px;
+  margin-top: -5px;
+  color: white;
+}

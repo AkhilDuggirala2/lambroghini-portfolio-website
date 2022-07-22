@@ -1,0 +1,212 @@
+#portfolio {
+  height: 100vh;
+}
+
+.portfolio-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 150px;
+}
+
+.portfolio-container h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.portfolio-container h1 span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  font-style: italic;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: orangered;
+  margin: 0 10px;
+}
+
+.portfolio-item {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin-top: 50px;
+  margin-left: 10px;
+}
+
+.portfolio-content {
+  background: black;
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid transparent;
+  transition: all 0.8s ease;
+}
+
+.portfolio-content-1 {
+  background: black;
+  padding: 30px;
+  border-radius: 20px;
+  border: 1px solid transparent;
+  transition: all 0.8s ease;
+}
+
+.portfolio-content-2 {
+  background: black;
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid transparent;
+  transition: all 0.8s ease;
+}
+
+.portfolio-content-3 {
+  background: black;
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid transparent;
+  transition: all 0.8s ease;
+}
+
+.portfolio-content:hover {
+  background: orangered;
+}
+
+.portfolio-content-1:hover {
+  background: orangered;
+}
+
+.portfolio-content-2:hover {
+  background: orangered;
+}
+
+.portfolio-content-3:hover {
+  background: orangered;
+}
+
+.portfolio-image {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+
+.portfolio-image-1 {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+
+.portfolio-image-2 {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+
+.portfolio-image-3 {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+
+.portfolio-image img {
+  width: 450px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.portfolio-image-1 img {
+  width: 350px;
+  height: 200px;
+  object-fit: fill;
+}
+
+.portfolio-image-2 img {
+  width: 450px;
+  height: 200px;
+  object-fit: fill;
+}
+
+.portfolio-image-3 img {
+  width: 450px;
+  height: 180px;
+  object-fit: fill;
+}
+
+.portfolio-content h3 {
+  display: block;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: 30px;
+}
+
+.portfolio-content-1 h3 {
+  display: block;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: 30px;
+}
+
+.portfolio-content-2 h3 {
+  display: block;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: 30px;
+}
+
+.portfolio-content-3 h3 {
+  display: block;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: 30px;
+}
+
+.portfolio-content p {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: 300;
+  margin-top: 30px;
+}
+
+.portfolio-content-1 p {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: 300;
+  margin-top: 30px;
+}
+
+.portfolio-content-2 p {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: 300;
+  margin-top: 30px;
+}
+
+.portfolio-content-3 p {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: 300;
+  margin-top: 30px;
+}
+
+.swiper-pagination-clickable .swiper-pagination-bullet {
+  background: white;
+  margin-bottom: 50px;
+}

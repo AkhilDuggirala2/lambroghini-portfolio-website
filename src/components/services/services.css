@@ -1,0 +1,84 @@
+#services {
+  height: 100vh;
+}
+
+.services-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 150px;
+}
+
+.services-container h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.services-container h1 span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  font-style: italic;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: orangered;
+  margin: 0 10px;
+}
+
+.service-me {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-top: 50px;
+  margin-left: 20px;
+}
+
+.service-content {
+  background: black;
+  border-radius: 0 0 20px 20px;
+  border: 1px solid white;
+  height: fit-content;
+  transition: all 0.5s ease;
+}
+
+.service-content:hover {
+  background: transparent;
+  background: orangered;
+  cursor: default;
+}
+
+.service-head {
+  background: black;
+  padding: 20px;
+  border-radius: 0 0 20px 20px;
+  box-shadow: 0 2px 1px rgba(0, 0, 0, 0.1);
+}
+
+.service-head h3 {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+
+.service-list {
+  padding: 20px;
+}
+
+.service-list li {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.service-list p {
+  font-size: 16px;
+}
+
+.service-list-icon {
+  margin-top: 2px;
+}

@@ -1,0 +1,149 @@
+#contact {
+  height: 120vh;
+}
+
+.contact-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 150px;
+}
+
+.contact-container h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.contact-container h1 span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  font-style: italic;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: orangered;
+  margin: 0 10px;
+}
+
+.contact-me {
+  width: 80px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.contact-options {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  margin-left: 200px;
+  gap: 15px;
+}
+
+.contact-option {
+  background: black;
+  padding: 40px;
+  border-radius: 20px;
+  text-align: center;
+  border: none;
+  transition: all 0.8s ease;
+}
+
+.contact-option:hover {
+  background: green;
+}
+
+.contact-option h4 {
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.contact-option h5 {
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.contact-option a {
+  display: inline-block;
+  font-size: 18px;
+  margin-top: 7px;
+  color: white;
+}
+
+.contact-option-icon {
+  color: orangered;
+  font-size: 20px;
+}
+
+/* Form */
+form {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 80px;
+  margin-left: 500px;
+}
+
+.contact-input-name {
+  padding: 20px 30px;
+  width: 200%;
+  border-radius: 20px;
+  background: transparent;
+  border: 5px solid green;
+  color: white;
+}
+
+.contact-email {
+  padding: 20px 30px;
+  width: 200%;
+  border-radius: 20px;
+  background: transparent;
+  border: 5px solid green;
+  color: white;
+}
+
+.contact-message {
+  padding: 20px 30px;
+  font-size: 18px;
+  width: 200%;
+  height: 100%;
+  border-radius: 20px;
+  background: transparent;
+  border: 5px solid green;
+  color: white;
+}
+
+.contact-button {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+  white-space: nowrap;
+  margin-top: 10px;
+}
+
+.contact-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  margin-top: 20px;
+  margin-left: 50px;
+  font-weight: 700;
+  border-radius: 50px;
+  padding: 10px 20px;
+  color: white;
+  cursor: pointer;
+}
+
+.contact-text:hover {
+  background: orangered;
+}

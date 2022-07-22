@@ -1,0 +1,148 @@
+#blog {
+  height: 100vh;
+}
+
+.blog-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 150px;
+}
+
+.blog-container h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.blog-container h1 span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  font-style: italic;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: orangered;
+  margin: 0 10px;
+}
+
+.blog-me {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-top: 50px;
+  margin-left: 20px;
+}
+
+.blog-image {
+  text-align: center;
+  padding: 30px;
+  border: 2px solid transparent;
+  border-radius: 20px;
+  transition: all 0.5s ease;
+}
+
+.blog-image:hover {
+  background: orangered;
+}
+
+.blog-image-1 {
+  text-align: center;
+  padding: 30px;
+  border: 2px solid transparent;
+  border-radius: 20px;
+  transition: all 0.5s ease;
+}
+
+.blog-image-1:hover {
+  background: orangered;
+}
+
+.blog-image-2 {
+  text-align: center;
+  padding: 30px;
+  border: 2px solid transparent;
+  border-radius: 20px;
+  transition: all 0.5s ease;
+}
+
+.blog-image-2:hover {
+  background: orangered;
+}
+
+.blog-image img {
+  width: 250px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.blog-image-1 img {
+  width: 350px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.blog-image-2 img {
+  width: 350px;
+  height: 250px;
+  object-fit: cover;
+  margin-top: -100px;
+}
+
+.blog-image h1 {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: 30px;
+}
+
+.blog-image-1 h1 {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: 30px;
+}
+
+.blog-image-2 h1 {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: 30px;
+}
+
+.blog-image p {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: 300;
+  margin-top: 30px;
+}
+
+.blog-image-1 p {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: 300;
+  margin-top: 30px;
+}
+
+.blog-image-2 p {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: 300;
+  margin-top: 30px;
+}
